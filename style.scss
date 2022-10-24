@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  .container {
+    background-color: wheat;
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 50px;
+    box-shadow: 0 50px 75px rgba(0, 0, 0, 0.1);
+    border-left: 50px solid red;
+    border-right: 50px solid red;
+
+    .top {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      padding: 40px;
+      padding-bottom: 0;
+      background-color: aqua;
+    }
+    //Lay top on top of the container
+
+    .imgBox {
+      position: relative;
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+    .box {
+      position: relative;
+      width: 70%;
+      min-width: 200px;
+      border-radius: 50%;
+      overflow: hidden;
+      aspect-ratio: 1;
+      //To make img round and small - just a face
+    }
+  }
+  .profileText {
+    position: relative;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+
+    h3 {
+      font-size: 2rem;
+      letter-spacing: 0.1em;
+      line-height: 1.2em;
+      font-weight: 600;
+      color: darkgray;
+    }
+
+    span {
+      position: relative;
+      font-size: 0.5em;
+      font-weight: 300;
+      top: -10px;
+    }
+  }
+}
