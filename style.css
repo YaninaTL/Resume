@@ -19,8 +19,8 @@ body .container {
   max-width: 1000px;
   margin: 50px;
   box-shadow: 0 50px 75px rgba(0, 0, 0, 0.1);
-  border-left: 50px solid red;
-  border-right: 50px solid red;
+  border-left: 10px solid red;
+  border-right: 10px solid red;
 }
 body .container .top {
   position: relative;
@@ -74,4 +74,18 @@ body .contentBox h3 {
   border-left: 4px solid black;
   padding-left: 10px;
   line-height: 1em;
+}
+body .leftSide ul {
+  position: relative;
+  margin: 10px 0;
+}
+body .leftSide li {
+  list-style: none;
+  margin: 25px 0;
+  line-height: 1em;
+  font-size: 0.8rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
 }/*# sourceMappingURL=style.css.map */
