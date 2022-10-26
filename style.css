@@ -71,9 +71,10 @@ body .contentBox {
   padding: 0 40px 40px;
 }
 body .contentBox h3 {
-  border-left: 4px solid black;
+  border-left: 4px solid crimson;
   padding-left: 10px;
   line-height: 1em;
+  margin-top: 15px;
 }
 body .leftSide ul {
   position: relative;
@@ -81,11 +82,35 @@ body .leftSide ul {
 }
 body .leftSide li {
   list-style: none;
-  margin: 25px 0;
+  margin: 5px 0;
   line-height: 1em;
   font-size: 0.8rem;
   cursor: pointer;
   display: flex;
   align-items: center;
   gap: 0.5em;
+}
+body .leftSide li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.9);
+}
+body .leftSide .education li {
+  display: flex;
+  margin: 25px 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+body .leftSide .education li h5 {
+  color: crimson;
+}
+body .leftSide .education li h4 {
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 500;
+  margin: 5px 0;
+}
+body .leftSide .education li h6 {
+  color: gray;
+  font-weight: 300;
+  font-size: 10px;
 }/*# sourceMappingURL=style.css.map */
