@@ -133,4 +133,9 @@ body .leftSide .language div {
   left: 0;
   height: 100%;
   background: crimson;
+}
+body .leftSide .interests {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }/*# sourceMappingURL=style.css.map */
