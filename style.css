@@ -113,4 +113,25 @@ body .leftSide .education li h6 {
   color: gray;
   font-weight: 300;
   font-size: 10px;
+}
+body .leftSide .language span {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+body .leftSide .language .lvl {
+  position: relative;
+  width: 100%;
+  background: lightgray;
+  height: 6px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  overflow: hidden;
+}
+body .leftSide .language div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: crimson;
 }/*# sourceMappingURL=style.css.map */
