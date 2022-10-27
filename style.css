@@ -13,14 +13,12 @@ body {
   min-height: 100vh;
 }
 body .container {
-  background-color: wheat;
+  background-color: white;
   position: relative;
   width: 100%;
   max-width: 1000px;
   margin: 50px;
   box-shadow: 0 50px 75px rgba(0, 0, 0, 0.1);
-  border-left: 10px solid red;
-  border-right: 10px solid red;
 }
 body .container .top {
   position: relative;
@@ -28,7 +26,7 @@ body .container .top {
   grid-template-columns: 1fr 2fr;
   padding: 40px;
   padding-bottom: 0;
-  background-color: aqua;
+  background-color: lightcoral;
 }
 body .container .imgBox {
   position: relative;
@@ -53,9 +51,9 @@ body .profileText {
 body .profileText h3 {
   font-size: 2rem;
   letter-spacing: 0.1em;
-  line-height: 1.2em;
+  line-height: 1em;
   font-weight: 600;
-  color: darkgray;
+  color: white;
 }
 body .profileText span {
   position: relative;
@@ -75,6 +73,7 @@ body .contentBox h3 {
   padding-left: 10px;
   line-height: 1em;
   margin-top: 15px;
+  font-size: 0.9rem;
 }
 body .leftSide ul {
   position: relative;
@@ -82,9 +81,9 @@ body .leftSide ul {
 }
 body .leftSide li {
   list-style: none;
-  margin: 5px 0;
+  margin: 3px 0;
   line-height: 1em;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -96,7 +95,7 @@ body .leftSide li a {
 }
 body .leftSide .education li {
   display: flex;
-  margin: 25px 0;
+  margin: 3px 0;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -115,7 +114,7 @@ body .leftSide .education li h6 {
   font-size: 10px;
 }
 body .leftSide .language span {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 500;
 }
 body .leftSide .language .lvl {

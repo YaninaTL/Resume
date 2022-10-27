@@ -14,14 +14,14 @@ body {
   min-height: 100vh;
 
   .container {
-    background-color: wheat;
+    background-color: white;
     position: relative;
     width: 100%;
     max-width: 1000px;
     margin: 50px;
     box-shadow: 0 50px 75px rgba(0, 0, 0, 0.1);
-    border-left: 10px solid red;
-    border-right: 10px solid red;
+    // border-left: 10px solid red;
+    // border-right: 10px solid red;
     // Works as padding but can be overcovered
 
     .top {
@@ -30,7 +30,7 @@ body {
       grid-template-columns: 1fr 2fr;
       padding: 40px;
       padding-bottom: 0;
-      background-color: aqua;
+      background-color: lightcoral;
     }
     //Lay top on top of the container
 
@@ -59,9 +59,9 @@ body {
     h3 {
       font-size: 2rem;
       letter-spacing: 0.1em;
-      line-height: 1.2em;
+      line-height: 1em;
       font-weight: 600;
-      color: darkgray;
+      color: white;
     }
 
     span {
@@ -83,6 +83,7 @@ body {
       padding-left: 10px;
       line-height: 1em;
       margin-top: 15px;
+      font-size: 0.9rem;
     }
   }
 
@@ -93,9 +94,9 @@ body {
     }
     li {
       list-style: none;
-      margin: 5px 0;
+      margin: 3px 0;
       line-height: 1em;
-      font-size: 0.8rem;
+      font-size: 0.7rem;
       cursor: pointer;
       display: flex;
       align-items: center;
@@ -109,7 +110,7 @@ body {
 
     .education li {
       display: flex;
-      margin: 25px 0;
+      margin: 3px 0;
       flex-direction: column;
       justify-content: center;
       align-items: flex-start;
@@ -133,7 +134,7 @@ body {
 
     .language {
       span {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         font-weight: 500;
       }
       .lvl {
