@@ -154,6 +154,7 @@ body .rightSide .year_company {
   font-size: 0.7rem;
   font-weight: 300;
   color: crimson;
+  max-width: 50px;
 }
 body .rightSide .year_company h5 {
   margin-bottom: 5px;
