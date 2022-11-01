@@ -168,18 +168,22 @@ body {
       flex-direction: row;
       justify-content: flex-start;
       align-items: flex-start;
-      gap: 0.5em;
+      gap: 1em;
       margin: 10px 0;
     }
+
     .year_company {
       font-size: 0.7rem;
       font-weight: 300;
       color: crimson;
-      max-width: 50px;
-      // Watch this
 
       h5 {
         margin-bottom: 5px;
+      }
+
+      .company {
+        color: gray;
+        font-weight: 200;
       }
     }
 
@@ -188,6 +192,12 @@ body {
 
       .exp {
         list-style: none;
+      }
+
+      .exp_move {
+        list-style: none;
+        margin-left: 8px;
+        // Watch this
       }
     }
   }

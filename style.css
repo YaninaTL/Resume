@@ -147,21 +147,28 @@ body .rightSide .box-container {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 0.5em;
+  gap: 1em;
   margin: 10px 0;
 }
 body .rightSide .year_company {
   font-size: 0.7rem;
   font-weight: 300;
   color: crimson;
-  max-width: 50px;
 }
 body .rightSide .year_company h5 {
   margin-bottom: 5px;
+}
+body .rightSide .year_company .company {
+  color: gray;
+  font-weight: 200;
 }
 body .rightSide .title_exp {
   font-size: 0.7rem;
 }
 body .rightSide .title_exp .exp {
   list-style: none;
+}
+body .rightSide .title_exp .exp_move {
+  list-style: none;
+  margin-left: 8px;
 }/*# sourceMappingURL=style.css.map */
